@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <title>Ben Harrison</title>
+</head>
+
+<body>
+  <div class="background"></div>
+  <div class="intro-left">
+    <div class="container-fluid full-height">
+      <div class="row text-center align-items-center full-height">
+        <div class="col contact">
+          <!-- <img src="img/avatar.jpg" alt="User avatar" class="avatar" /> -->
+          <p class="display-4 title">Ben Harrison</p>
+          <p>Software Developer</p>
+          <a href="https://www.linkedin.com/in/ben-harrison-a3a740106/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/bvdh98"><i class="fab fa-github-square"></i></a>
+          <a href="mailto:bvdhest1998@gmail.com"><i class="fas fa-envelope-square"></i></a>
+          <div>
+            <a class="display-12" href="./resume/resume.docx">Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-8 panel-right px-0">
+        <section class="projects">
+          <h2 class="display-6">My projects:</h2>
+          <div class="accordion" id="accordion">
+            <div class="card col-md-9">
+              <div class="card-header" id="gamesHeading">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseGames" aria-expanded="true"
+                  aria-controls="collapseGames">
+                  Games
+                </button>
+              </div>
+            </div>
+            <div class="container-fluid collapse" id="collapseGames" aria-labelledby="gamesHeading"
+              data-parent="#accordion">
+              <div class="row">
+                <div class="mt-4 col-md-9">
+                  <h4 class="display-8 text-center">First person shooter</h4>
+                  <img src="img/fps.gif" alt="GIF of FPS" class="img-fluid thumbnail" width="100%" />
+                  <div class="project-description">
+                    <p class="mt-4 project-background">January 2021</p>
+                    <p class="project-background">Time Frame: 1 Week</p>
+                    <p class="project-background">Status: Work in progress</p>
+                    <p>A simple FPS game which helped me build upon the Unity foundations</p>
+                    <p>The objective is straightforward: kill all the enemies in each stage to advance to the next</p>
+                    <p>This game was also built following this: <a
+                        href="https://www.youtube.com/watch?v=UtlAqRyZrUw&t=2795s">great tutorial</a></p>
+                    <p>Features:</p>
+                    <ul>
+                      <li>Enemies that shoot and follow you</li>
+                      <li>Ammo and health crates</li>
+                      <li>Pooled bullets</li>
+                      <li>Buildings and obstacles</li>
+                    </ul>
+                    <p>Built with: Unity and C#</p>
+                  </div>
+                </div>
+                <div class="mt-4 col-md-9">
+                  <h4 class="display-8 text-center">Angry Birds</h4>
+                  <img src="img/angryBirds.gif" alt="Screenshot of Angry Birds" class="img-fluid thumbnail"
+                    width="100%" />
+                  <div class="project-description">
+                    <p class="mt-4 project-background">December 2020</p>
+                    <p class="project-background">Time Frame: 1 Week</p>
+                    <p class="project-background">Status: Work in progress</p>
+                    <p>A beginner project that helped me learn the foundations of Unity.</p>
+                    <p>I built this game following this: <a
+                        href="https://www.youtube.com/watch?v=Lu76c85LhGY&list=PLB5_EOMkLx_VHKn4IISeNwhlDrb1948ZX">tutorial</a>
+                    </p>
+                    <p>Features:</p>
+                    <ul>
+                      <li>Different levels</li>
+                      <li>Enemies and wood blocks</li>
+                      <li>LineRenderer aim feature</li>
+                    </ul>
+                    <p>Built with: Unity and C#</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-9">
+              <div class="card-header" id="webHeading">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseWeb" aria-expanded="true"
+                  aria-controls="collapseWeb">
+                  Web Development
+                </button>
+              </div>
+            </div>
+            <div class="container-fluid collapse" id="collapseWeb" aria-labelledby="webHeading"
+              data-parent="#accordion">
+              <div class="row collapse show in">
+                <div class="mt-4 col-md-9">
+                  <h4 class="display-8 text-center">Youth Environmental Challenge </h4>
+                  <img src="img/yecdashboard.png" alt="Youth Environmental Challenge dashboard"
+                    class="img-fluid thumbnail" />
+                  <div class="project-description">
+                    <p class="mt-4 project-background">Comp 4800 BCIT industry sponsored project</p>
+                    <p class="project-background">September - December 2020</p>
+                    <p>This project was sponsored by <a href="https://www.drizzlesociety.org/">Drizzle Environmental
+                        Society.</a></p>
+                    <p>In this project we worked with Darcy Green, a founder of Drizzle Environmnetal Society, to
+                      improve
+                      the Youth Environmental Challenge website, a site
+                      which challeges youth to take on environmental challenges in their community.</p>
+                    <p>Once a user has completed a challenge, they can submit a photo as evidence</p>
+                    <p>After an admin verifies the photo, the user will recieve points, which can be used to claim
+                      awards.
+                    </p>
+                    <p>My group and I refactored the login and registration, implemented the photo verification system,
+                      and improved the website design</p>
+                    <p>Built with: LAMP, JavaScript</p>
+                  </div>
+                  <a href="https://youthenvironmentalchallenge.com/login.php" class="project-link">Project link</a>
+                  <br>
+                  <a href="https://github.com/yecuser/DrizzleYEC" class="project-link">GitHub link</a>
+                </div>
+                <div class="mt-4 col-md-9">
+                  <h4 class="display-8 text-center">OurFootprint Carbon Calculator</h4>
+                  <img src="img/carbonfootprint.png" alt="Screenshot of carbon calculator"
+                    class="img-fluid thumbnail" />
+                  <div class="project-description">
+                    <p class="mt-4 project-background">Comp 3800 BCIT industry sponsored project</p>
+                    <p class="project-background">April - May 2020</p>
+                    <p>This project was sponsored by Canadian V-Chip Design Inc.</p>
+                    <p>A group of four others and I worked for Tim Collins, CEO of Canadian V-Chip Design Inc, to build
+                      a
+                      carbon calculator.</p>
+                    <p>Unlike most carbon calculators, this app dosent require extensive manula input from users.</p>
+                    <p>Users upload csv files of their BC Hydro and Fortis bills and data of their car commutes, to then
+                      receive their carbon footprint and a comparison to the average BC household.</p>
+                    <p>Built with: AngularJS, Django</p>
+                  </div>
+                  <div class="ourfootprint-link-and-notice">
+                    <a href="https://ourfootprint.herokuapp.com/" class="project-link" data-toggle="tooltip"
+                      data-placement="top" title="Please wait paitently">Project link</a>
+                    <p class="display-10">-This website may take a while to load</p>
+                  </div>
+                  <a href="https://github.com/bvdh98/OurFootprintCA" class="project-link">GitHub link</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="https://kit.fontawesome.com/3e83a41ef3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
