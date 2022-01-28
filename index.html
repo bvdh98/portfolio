@@ -105,6 +105,36 @@
               data-parent="#accordion">
               <div class="row collapse show in">
                 <div class="mt-4 col-md-9">
+                  <h4 class="display-8 text-center">Iverson Club</h4>
+                  <img src="img/iverson.png" alt="Screenshot of Iverson Club website"
+                    class="img-fluid thumbnail" />
+                  <div class="project-description">
+                    <p class="project-background">November 2021 - January 2022</p>
+                    <p>Iverson Club is a fake e-commerce store which sells Allen Iverson basketball shoes.
+                      FireBase is used to handle user authentication and storing the shoe data.
+                      Once the user logs in, the shoes are populated from FireBase onto the website.
+                      The user can add shoes to their shopping cart, and then purchase them using PayPal.</p>
+                    <p>The most challenging aspect of this project was figuring out how to implement a shopping cart
+                      system.
+                      After doing some research, I discovered that the best way to implement it would be by using the
+                      context pattern and reducer pattern.
+                      This was a pattern, I wasn`t familiar with and it took sometime to learn.
+                      Part of the reducer pattern are dispatches, which are like methods used to signal the parent
+                      component to update it's state. A dispatch is used to get the user's cart data after they login,
+                      when a new shoe is added to the cart, when a new user logins in, when a user logs out, and when a
+                      user logs out.</p>
+                    <p>In the future, I would like to implement a shopping cart notification system. It would work as
+                      such: the user adds a shoe to their cart and then a shopping cart icon in the nav bar would
+                      display how many shoes are currently in the user`s cart.</p>
+                  </div>
+                  <div class="ourfootprint-link-and-notice">
+                    <a href="https://iversonclub.web.app" class="project-link" data-toggle="tooltip"
+                      data-placement="top" title="Please wait patiently">Project link</a>
+                    <p class="display-10">-This website may take a while to load</p>
+                  </div>
+                  <a href="https://github.com/bvdh98/IversonClub" class="project-link">GitHub link</a>
+                </div>
+                <div class="mt-4 col-md-9">
                   <h4 class="display-8 text-center">Youth Environmental Challenge </h4>
                   <img src="img/yecdashboard.png" alt="Youth Environmental Challenge dashboard"
                     class="img-fluid thumbnail" />
@@ -139,9 +169,8 @@
                     <p class="mt-4 project-background">Comp 3800 BCIT industry sponsored project</p>
                     <p class="project-background">April - May 2020</p>
                     <p>This project was sponsored by Canadian V-Chip Design Inc.</p>
-                    <p>A group of four others and I worked with Tim Collings, CEO of Canadian V-Chip Design Inc, to build
-                      a
-                      carbon calculator.</p>
+                    <p>A group of four others and I worked with Tim Collings, CEO of Canadian V-Chip Design Inc, to
+                      build a carbon calculator.</p>
                     <p>Unlike most carbon calculators, this app doesn't require extensive manual input from users. Users
                       upload csv files of their BC Hydro and Fortis bills and enter data of their car commutes, to then
                       receive their carbon footprint and a comparison to the average BC household.</p>
@@ -153,7 +182,6 @@
                     <p class="display-10">-This website may take a while to load</p>
                   </div>
                   <a href="https://github.com/bvdh98/OurFootprintCA" class="project-link">GitHub link</a>
-
                 </div>
               </div>
             </div>
